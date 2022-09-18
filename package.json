@@ -1,7 +1,7 @@
 {
   "name": "vue-watch-decorator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Typesafe watch decorator for vue-class-component",
   "main": "dist/index.umd.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.json && rollup -c",
@@ -24,7 +24,10 @@
     "vue": "*",
     "vue-class-component": "*"
   },
-  "repository": "git+https://github.com/sergey-peskov/vue-watch-decorator.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergey-peskov/vue-watch-decorator.git"
+  },
   "bugs": {
     "url": "https://github.com/sergey-peskov/vue-watch-decorator/issues"
   },
