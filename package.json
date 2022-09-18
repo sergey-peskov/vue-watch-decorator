@@ -24,6 +24,7 @@
     "vue": "*",
     "vue-class-component": "*"
   },
+  "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergey-peskov/vue-watch-decorator.git"
