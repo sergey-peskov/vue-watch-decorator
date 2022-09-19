@@ -32,18 +32,16 @@ import Component from 'vue-class-component'
 
 @Component
 export default class App extends Vue {
-	unwatchFn: (() => void) | null = null;
-
 	inputValue: string = '';
 
 	onChangeInputValue() {}
 
 	created() {
-		this.unwatchFn = this.$watch(() => this.inputValue, this.onChangeInputValue, { immediate: true });
+		this.$watch(() => this.inputValue, this.onChangeInputValue, { immediate: true });
 	}
 
 	beforeDestroy() {
-		this.unwatchFn?.();
+		// Deleting all subscriptions created with $watch
 	}
 }
 ```

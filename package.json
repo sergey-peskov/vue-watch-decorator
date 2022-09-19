@@ -1,6 +1,6 @@
 {
   "name": "vue-watch-decorator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typesafe watch decorator for vue-class-component",
   "main": "dist/index.umd.js",
   "scripts": {
